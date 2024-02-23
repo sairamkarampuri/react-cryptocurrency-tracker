@@ -1,0 +1,59 @@
+/* Write your CSS code here */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.currency-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px 40px;
+}
+.currency-logo-name-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.currency-value-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.currency-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+.currency-text {
+  font-size: 18px;
+  width: 100px;
+}
+.currency-text-value {
+  font-size: 18px;
+  width: 100px;
+  text-align: right;
+}
+/* ------------------------------------------------------------------- */
+@media (width <= 768px) {
+  .currency-container {
+    padding: 10px;
+  }
+  .currency-logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 0px;
+  }
+  .currency-value-section {
+    gap: 10px;
+  }
+  .currency-text {
+    font-size: 16px;
+    width: 100px;
+  }
+  .currency-text-value {
+    font-size: 16px;
+    width: 80px;
+    text-align: right;
+  }
+}
